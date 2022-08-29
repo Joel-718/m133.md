@@ -1,13 +1,13 @@
 # Lern-Bericht
-✍️Joel Freitas
+Joel Freitas
 
 ## Einleitung
 
-✍️ Wie speichert und leitet man ein Value von einem Texfeld.
+Wie speichert und leitet man ein Value von einem Texfeld.
 
 ## Was habe ich gelernt?
 
-✍️ Ich habe gelernt, wie man Daten von einem textfield speichert und dies dan zu einer neuen Seite weiter leitet.
+Ich habe gelernt, wie man Daten von einem textfield speichert und dies dan zu einer neuen Seite weiter leitet.
 
 ## Beschreibung
 ```xhtml
@@ -44,7 +44,7 @@
 # Reflektion zum Arbeitsprozess
 
 👍 
-Zu beginn hatte ich etwas schwierigkeiten mit dem umgang von JSP, doch nach einer viertel Stunde hatte ich ein ganz gutet Überblick über den Konzept.
+Zu beginn hatte ich etwas schwierigkeiten mit dem umgang von JSP, doch nach einer viertel Stunde hatte ich ein ganz gutet Überblick über das Konzept.
 
 👎
 Wie schon vorher erwähnt hatte ich etwas start schwierigkeiten, da bei der html seite eine andere vorgehensweise ist und auch etwas anders geschrieben wird. Was mich etwas verwirrt hat, ist wie man dies mit Java verienen kann.
