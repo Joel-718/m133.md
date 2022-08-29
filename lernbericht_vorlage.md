@@ -1,31 +1,53 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+✍️Joel Freitas
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+✍️ Wie speichert und leitet man ein Value von einem Texfeld.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+✍️ Ich habe gelernt, wie man Daten von einem textfield speichert und dies dan zu einer neuen Seite weiter leitet.
 
 ## Beschreibung
+```xhtml
+        <h:form>
+            <h:outputLabel for="eingabe" value="Ihr Name "/> 
+            <h:inputText value="#{helloManagedBean.eingabe}" id="eingabe"/>
+            <h:commandButton value="Submit Query" action="post_1.xhtml"/>
+        </h:form>
+```
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+```java
+  public HelloManagedBean() {
+    }
+    
+    private String eingabe;
 
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+    public String getEingabe() {
+        return eingabe;
+    }
+
+    public void setEingabe(String eingabe) {
+        this.eingabe = eingabe;
+    }
+```
+
+![image](https://user-images.githubusercontent.com/69576108/187228907-aa338cf6-1b7c-41d2-bca4-98cd7714e322.png)
+![image](https://user-images.githubusercontent.com/69576108/187229019-1e2f173e-687a-45f8-a8ba-337bf1a1d545.png)
+
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 
+Zu beginn hatte ich etwas schwierigkeiten mit dem umgang von JSP, doch nach einer viertel Stunde hatte ich ein ganz gutet Überblick über den Konzept.
 
-👎 und etwas, was nicht gut lief.
+👎
+Wie schon vorher erwähnt hatte ich etwas start schwierigkeiten, da bei der html seite eine andere vorgehensweise ist und auch etwas anders geschrieben wird. Was mich etwas verwirrt hat, ist wie man dies mit Java verienen kann.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+
+**VBV**: Ich will die Auftröge aufmerksam durchlesen, damit ich einen klaren Überblick habe.
